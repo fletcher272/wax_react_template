@@ -299,4 +299,4 @@ UserService.session.signTransaction(
 ---
 ![Logo 3DKRender](https://cdn.discordapp.com/attachments/813862875944845313/813866667150409769/3DK_LOGO_400x120.png)
 
-Esperamos que nuestras herramientas te faciliten la vida y que puedas seguir desarrollando en esta increíble tecnología WAX.
+Esperamos que nuestras herramientas te faciliten la vida y que puedas seguir desarrollando en esta increíble tecnología WAX.# wax_react_template_testnet
