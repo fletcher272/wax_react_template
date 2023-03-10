@@ -49,7 +49,7 @@ export const Menu = (props) => {
                 <Link to="/" className="btn-item">Main</Link>
                 <Link to="/home" className={`${(UserState.isLogged) ? '' : "disable"} btn-item`}>Home</Link>
                 <Link to="/page2" className={`${(UserState.isLogged) ? '' : "disable"} btn-item`}>Page2</Link>
-                {
+                <Link to="/game" className={`${(UserState.isLogged) ? '' : "disable"} btn-item`}>Game</Link>                {
                     !UserState.isLogged ?
                     <button className="btn-item" onClick={handleLogin}><img src={EnterIcon} alt="Loggin" width="24" /> Login</button>
                     :

@@ -15,7 +15,7 @@ export const Page2 = () => {
                     }],
                     data: {
                         from: UserService.authName,
-                        to: '3dkrenderwax',
+                        to: 'gtrfdyhnjkiu',
                         quantity: '1.00000000 WAX',
                         memo: 'This works!'
                     }

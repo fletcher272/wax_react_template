@@ -3,6 +3,7 @@ import { Menu } from './components/Menu';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Page2 } from './pages/Page2';
+import { Game } from './pages/Game';
 import ProtectedRoute from './ProtectedRoute';
 import { LandingPage } from './pages/LandingPage';
 
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/" component={LandingPage} />
           <ProtectedRoute exact path="/page2" component={Page2} />
           <ProtectedRoute exact path="/home" component={Home} />
+          <ProtectedRoute exact path="/game" component={Game} />
           <Redirect to="/"  />
         </Switch>
       </BrowserRouter>
